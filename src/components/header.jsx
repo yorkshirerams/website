@@ -22,12 +22,14 @@ export default class Header extends React.Component {
   }
 
   toggle() {
+    const { isOpen } = this.state;
     this.setState({
-      isOpen: !this.state.isOpen,
+      isOpen: !{ isOpen },
     });
   }
 
   render() {
+    const { isOpen } = this.state;
     return (
       <div>
         <Navbar color="light" light expand="md">
@@ -35,7 +37,7 @@ export default class Header extends React.Component {
             <img className="logo" src="/img/logo.png" alt="Home" />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
+          <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink href="/news/">News</NavLink>
