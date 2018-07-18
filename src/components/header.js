@@ -1,33 +1,67 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+} from 'reactstrap'
 
-const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </div>
-)
+export default class Header extends React.Component {
+  constructor(props) {
+    super(props)
 
-export default Header
+    this.toggle = this.toggle.bind(this)
+    this.state = {
+      isOpen: false,
+    }
+  }
+
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen,
+    })
+  }
+
+  render() {
+    return (
+      <div>
+        <Navbar color="dark" dark expand="md">
+          <NavbarBrand href="/">Home</NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Nav className="ml-auto" navbar>
+              <NavItem>
+                <NavLink href="/news/">News</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/schedule/">Schedule</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/recruitment/">Recruitment</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/sponsors/">Sponsors and Affiliates</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/ramzone/">RamZone</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/about/">About</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/ramzone/">Contact</NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Navbar>
+      </div>
+    )
+  }
+}
