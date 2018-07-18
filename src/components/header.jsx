@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {
   Collapse,
   Navbar,
@@ -7,26 +7,22 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-} from 'reactstrap'
+} from 'reactstrap';
 
 export default class Header extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
 
-    this.toggle = this.toggle.bind(this)
+    this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false,
-    }
+    };
   }
 
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen,
-    })
+    });
   }
 
   render() {
@@ -62,6 +58,6 @@ export default class Header extends React.Component {
           </Collapse>
         </Navbar>
       </div>
-    )
+    );
   }
 }
