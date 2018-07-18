@@ -9,6 +9,8 @@ import {
   NavLink,
 } from 'reactstrap';
 
+import './header.css';
+
 export default class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -28,8 +30,10 @@ export default class Header extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="dark" dark expand="md">
-          <NavbarBrand href="/">Home</NavbarBrand>
+        <Navbar color="light" light expand="md">
+          <NavbarBrand href="/">
+            <img className="logo" src="/static/img/logo.png" alt="Home" />
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
