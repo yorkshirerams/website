@@ -5,6 +5,7 @@ import Helmet from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../components/header';
 import './index.scss';
+import favicon from '../../static/img/favicon.ico';
 
 const Layout = ({ children, data }) => (
   <div>
@@ -14,6 +15,7 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
+      link={[{ rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
     <div
