@@ -9,3 +9,41 @@ A proof-of-concept for a next-gen website for the Rams
 ## Demo
 
 A demo of the the site can be found [here](https://yorkshirerams.netlify.com/)
+
+## Development
+
+### Prerequisites
+
+You will need to have `git`, `nodejs`, `gatsby-cli` and `make` installed
+
+### Building
+
+Clone the repo to your local machine and run the following command:
+
+```shell
+make install
+```
+
+### Run the development server
+
+Running the following command will launch a development version of the website that will auto-refresh when changes are made
+
+```shell
+make run
+```
+
+### Run checks
+
+When making changes, it's worth running the `ESLint` and `Prettier` checks often using the following command
+
+```shell
+make vet
+```
+
+This will make sure that the build will not fail on `CircleCI` when committing
+
+You can also use the following command to fix all `Prettier` issues:
+
+```shell
+make vet-fix
+```
