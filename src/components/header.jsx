@@ -32,7 +32,7 @@ export default class Header extends React.Component {
     const { isOpen } = this.state;
     return (
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar color="dark" dark expand="md">
           <NavbarBrand href="/">
             <img className="logo" src="/img/logo.png" alt="Home" />
           </NavbarBrand>
