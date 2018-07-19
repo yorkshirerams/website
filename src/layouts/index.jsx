@@ -36,12 +36,12 @@ Layout.defaultProps = {
 
 Layout.propTypes = {
   children: PropTypes.func,
-  data: (PropTypes.objectOf = {
-    site: {
-      siteMetadata: {
-        title: PropTypes.string,
-      },
-    },
+  data: PropTypes.shape({
+    site: PropTypes.shape({
+      siteMetadata: PropTypes.shape({
+        title: PropTypes.string.isRequired,
+      }).isRequired,
+    }).isRequired,
   }),
 };
 
