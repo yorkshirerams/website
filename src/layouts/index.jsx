@@ -29,12 +29,25 @@ const Layout = ({ children, data }) => (
   </div>
 );
 
+Layout.defaultProps = {
+  children: null,
+  data: null,
+};
+
 Layout.propTypes = {
   children: PropTypes.func,
+  data: PropTypes.shape({
+    site: PropTypes.shape({
+      siteMetadata: PropTypes.shape({
+        title: PropTypes.string.isRequired,
+      }).isRequired,
+    }).isRequired,
+  }),
 };
 
 export default Layout;
 
+// eslint-disable-next-line no-undef
 export const query = graphql`
   query SiteTitleQuery {
     site {
