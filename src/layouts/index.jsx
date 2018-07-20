@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from '../components/header';
+import Header from '../components/header/header';
 import './index.scss';
 import favicon from '../../static/img/favicon.ico';
 
