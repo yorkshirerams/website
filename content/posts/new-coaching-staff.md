@@ -1,7 +1,7 @@
 ---
 title: "New Rams Coaching Staff Announced"
 date: 2018-11-07T20:31:20Z
-draft: true
+draft: false
 ---
 
 Yorkshire Academy Rams head coach Dale Bottomley has named the senior members of his new coaching staff.

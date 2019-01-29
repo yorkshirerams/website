@@ -1,7 +1,7 @@
 ---
 title: "Yorkshire Academy initiative sees Rams rebrand"
 date: 2018-10-18T10:44:04Z
-draft: true
+draft: false
 ---
 
 The Yorkshire Academy of American Football, a new initiative designed to develop American football in the Leeds and wider region, has been launched.
