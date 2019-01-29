@@ -19,6 +19,11 @@ vet-fix:
 build:
 	hugo
 
+.PHONY: build-netlify
+build-netlify:
+	./scripts/netlify-build-fix.sh
+	hugo
+
 .PHONY: run
 run:
 	hugo server -D
