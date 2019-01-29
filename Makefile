@@ -1,6 +1,7 @@
 .PHONY: clean
 clean:
 	rm -fr public
+	rm -fr resources
 
 .PHONY: install
 install:
