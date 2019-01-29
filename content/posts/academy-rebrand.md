@@ -1,6 +1,6 @@
 ---
 title: "Yorkshire Academy initiative sees Rams rebrand"
-date: 2019-01-29T19:12:04Z
+date: 2018-10-18T10:44:04Z
 draft: true
 ---
 
