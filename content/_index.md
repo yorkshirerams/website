@@ -6,6 +6,6 @@ menu: main
 weight: 1
 ---
 
-Welcome to the new home of the Yorkshire Academy Rams
+# Welcome to the new home of the Yorkshire Academy Rams
 
 <a href="/posts">See all of the latest news</a>
