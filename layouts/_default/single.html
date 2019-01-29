@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>{{.Title}}</title>
-</head>
-<body>
-  <h1>{{.Title}}</h1>
+{{ define "main" }}
+<div>
+  <h1>{{ .Title }}</h1>
 
-  {{.Content}}
-</body>
-</html>
+  {{ .Content }}
+</div>
+{{ end }}

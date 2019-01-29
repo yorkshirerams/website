@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Document</title>
-</head>
-<body>
-  {{.Content}}
+{{ define "main" }}
+<div>
+  {{ .Content }}
   <ul>
-  {{range .Pages}}
-    <li><a href="{{.URL}}">{{.Title}}</a></li>
-  {{end}}
+  {{ range .Pages }}
+    <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+  {{ end }}
   </ul>
-</body>
-</html>
+</div>
+{{ end }}
