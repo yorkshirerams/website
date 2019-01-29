@@ -1,3 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Yorkshire Academy Rams"
+
+[params]
+  author = "Yorkshire Academy Rams"

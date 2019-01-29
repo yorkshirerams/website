@@ -6,6 +6,14 @@
   <link rel="stylesheet" href="{{$styles.Permalink}}">
 </head>
 <body>
-  {{ block "main" . }}{{ end }}
+  <header>
+    {{ partial "header.html" . }}
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
 </body>
 </html>

@@ -1,0 +1,15 @@
+<nav>
+  <div>
+    <a href="/">Home</a>
+  </div>
+  <div>
+    <ul>
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main -}}
+      <li>
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+    {{- end }}
+    </ul>
+  </div>
+</nav>
