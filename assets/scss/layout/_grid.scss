@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 2rem auto 2rem;
   grid-template-rows: auto 1fr auto;
-  grid-template-areas: 
+  grid-template-areas:
     "header header header"
     ". main ."
     "footer footer footer";
@@ -20,5 +20,20 @@
   &__footer {
     grid-area: footer;
     padding: 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+      "header"
+      "main"
+      "footer";
+
+    &__main {
+      padding: 1rem;
+    }
   }
 }

@@ -1,9 +1,22 @@
 nav {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   margin: 1rem;
 }
 
 a {
   color: $clr-light-purple;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  & a {
+    padding: 0.125rem;
+    font-size: 1.25rem;
+  }
 }
