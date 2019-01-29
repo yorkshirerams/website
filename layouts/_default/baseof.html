@@ -6,14 +6,16 @@
   <link rel="stylesheet" href="{{$styles.Permalink}}">
 </head>
 <body>
-  <header>
-    {{ partial "header.html" . }}
-  </header>
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
-  <footer>
-    {{ partial "footer.html" . }}
-  </footer>
+  <div class="grid">
+    <header class="grid__header">
+      {{ partial "header.html" . }}
+    </header>
+    <main class="grid__main">
+      {{ block "main" . }}{{ end }}
+    </main>
+    <footer class="grid__footer">
+      {{ partial "footer.html" . }}
+    </footer>
+  </div>
 </body>
 </html>
