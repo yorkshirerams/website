@@ -20,7 +20,7 @@ build:
 
 .PHONY: run
 run:
-	hugo server
+	hugo server -D
 
 .PHONY: all
 all: clean install vet build
