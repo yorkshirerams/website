@@ -10,14 +10,15 @@ Grown from the Leeds Academy of American Football, the new structure is designed
 
 Programmes within the Yorkshire Academy are:
 
-Yorkshire Academy Rams (adult contact)
-Leeds Carnegie Chargers (women’s contact)
-Leeds Gryphons (BUCS)
-Leeds Beckett Carnegie (BUCS)
-Yorkshire Academy Assassins (U14, U17, U19 contact)
-Leeds Samurai and the new Leeds Samurai women’s team (flag)
-Yorkshire Academy Ultimate Flag League (U13 flag)
-Yorkshire Academy Schools and Community
+- Yorkshire Academy Rams (adult contact)
+- Leeds Carnegie Chargers (women’s contact)
+- Leeds Gryphons (BUCS)
+- Leeds Beckett Carnegie (BUCS)
+- Yorkshire Academy Assassins (U14, U17, U19 contact)
+- Leeds Samurai and the new Leeds Samurai women’s team (flag)
+- Yorkshire Academy Ultimate Flag League (U13 flag)
+- Yorkshire Academy Schools and Community
+
 The new-look Academy has been fully sanctioned by the British American Football Association. Each affiliated team within the Academy will remain in total control of their management and finances via their respective committees.
 
 A representative from each of the teams will sit on the Yorkshire Academy Steering Group that will communicate regularly and work together to ensure American football in the region thrives.
