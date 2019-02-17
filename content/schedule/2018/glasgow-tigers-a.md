@@ -1,6 +1,6 @@
 ---
 title: "Glasgow Tigers"
-date: 2019-02-17T20:14:15Z
+date: 2018-04-29T14:30:00Z
 draft: false
 away: Yorkshire Rams
 home: Glasgow Tigers

@@ -1,6 +1,6 @@
 ---
 title: "Northumberland Vikings"
-date: 2019-02-17T20:15:15Z
+date: 2018-06-17T14:30:00Z
 draft: false
 away: Yorkshire Rams
 home: Northumberland Vikings

@@ -1,6 +1,6 @@
 ---
 title: "Gateshead Senators"
-date: 2019-02-17T20:14:30Z
+date: 2018-06-03T14:30:00Z
 draft: false
 away: Gateshead Senators
 home: Yorkshire Rams

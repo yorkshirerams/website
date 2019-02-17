@@ -2,7 +2,7 @@
 <div>
   {{ .Content }}
   <ul>
-  {{ range .Pages }}
+  {{ range .Pages.Reverse }}
     <li><a href="{{ .URL }}">{{ .Params.away }} {{ .Params.away_score }} - {{ .Params.home_score }} {{ .Params.home }}</a></li>
   {{ end }}
   </ul>

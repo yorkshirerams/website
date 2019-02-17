@@ -1,6 +1,6 @@
 ---
 title: "Lancashire Wolverines"
-date: 2019-02-17T20:17:05Z
+date: 2018-08-05T14:30:00Z
 draft: false
 away: Yorkshire Rams
 home: Lancashire Wolverines
