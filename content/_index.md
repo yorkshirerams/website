@@ -8,4 +8,4 @@ weight: 1
 
 # Welcome to the new home of the Yorkshire Academy Rams
 
-<a href="/news">See all of the latest news</a>
+<a class="base__link" href="/news">See all of the latest news</a>

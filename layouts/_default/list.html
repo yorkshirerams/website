@@ -3,7 +3,7 @@
   {{ .Content }}
   <ul>
   {{ range .Pages }}
-    <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+    <li><a class="base__link" href="{{ .URL }}">{{ .Title }}</a></li>
   {{ end }}
   </ul>
 </div>
