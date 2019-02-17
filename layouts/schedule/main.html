@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div>
-  <h1>{{ .Title }}</h1>
+  <h1>{{ .Content }}</h1>
   {{ $sections := (.Site.GetPage "section" "schedule").Sections }}
   {{ range $sections }}
     <a href="{{ .URL }}">{{ .Title }}</a>

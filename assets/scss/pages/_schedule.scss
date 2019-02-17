@@ -1,0 +1,17 @@
+.schedule {
+  &__title {
+    padding-bottom: 2rem;
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__game {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

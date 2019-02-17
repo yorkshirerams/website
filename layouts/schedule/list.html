@@ -1,9 +1,11 @@
 {{ define "main" }}
 <div>
-  {{ .Content }}
+  <h1 class="schedule__title">{{ .Title }}</h1>
   <ul>
   {{ range .Pages.Reverse }}
-    <li><a href="{{ .URL }}">{{ .Params.away }} {{ .Params.away_score }} - {{ .Params.home_score }} {{ .Params.home }}</a></li>
+    <li class="schedule__list">
+      <a class="schedule__game" href="{{ .URL }}">{{ .Params.away }} {{ .Params.away_score }} - {{ .Params.home_score }} {{ .Params.home }}</a>
+    </li>
   {{ end }}
   </ul>
 </div>
