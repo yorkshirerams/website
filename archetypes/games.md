@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
+draft: false
 away: Unknown
 home: Unknown
 location: John Charles Centre for Sport, Leeds

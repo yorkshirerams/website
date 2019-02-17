@@ -1,7 +1,7 @@
 ---
 title: "Leeds Bobcats"
 date: 2018-04-14T17:00:00Z
-draft: true
+draft: false
 away: Leeds Bobcats
 home: Yorkshire Rams
 location: John Charles Centre for Sport, Leeds
