@@ -3,7 +3,7 @@
   grid-template-columns: 2rem auto 2rem;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
-    "header header header"
+    ". header ."
     ". main ."
     "footer footer footer";
   min-height: 100vh;
@@ -18,8 +18,10 @@
   }
 
   &__footer {
+    background-color: $clr-light-purple;
+    color: $clr-text-invert;
     grid-area: footer;
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
   }
 }
 

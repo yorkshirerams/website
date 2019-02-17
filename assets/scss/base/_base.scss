@@ -1,9 +1,18 @@
-*{
+body {
+  background-color: $clr-background;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-body {
-  background-color: $clr-background;
+strong {
+  color: $clr-light-purple;
+}
+
+a {
+  color: $clr-light-purple;
+}
+
+.footer__link {
+  color: $clr-dark-purple;
 }

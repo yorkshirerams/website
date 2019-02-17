@@ -1,6 +1,6 @@
 <nav>
   {{ $currentPage := . }}
   {{ range .Site.Menus.main }}
-      <a href="{{ .URL }}">{{ .Name }}</a>
+      <a class="nav__link" href="{{ .URL }}">{{ .Name }}</a>
   {{ end }}
 </nav>
